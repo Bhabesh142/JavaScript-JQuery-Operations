@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sample Javascript </title>
+
+    </head>
+    <body>
+        <h1>Javascript Changing Element </h1>
+
+
+        <p id="demo"></p>
+       
+        <script>
+        
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"]
+
+        fruits[2] = "Kiwi";
+
+        delete fruits[4];
+        
+        document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+        </script>
+</body>

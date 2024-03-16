@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sample Javascript </title>
+
+    </head>
+    <body>
+        <h1>Javascript For-In Loop</h1>
+
+        <p id="demo"></p>
+       
+        <script type="text/javascript">
+
+            var txt = "";
+
+            var person = {fname:"Bhabesh", lname:"Dutta", age:30};
+
+            var x;
+
+            for(x in person)
+            {
+                txt += person[x] + " ";
+            }
+           
+            document.getElementById("demo").innerHTML = txt;
+       
+        </script>
+</body>
+</html>

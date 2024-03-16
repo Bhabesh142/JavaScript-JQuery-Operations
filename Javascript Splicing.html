@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sample Javascript </title>
+
+    </head>
+    <body>
+        <h1>Javascript Splicing</h1>
+
+
+        <p id="demo"></p>
+       
+        <script>
+        
+        var fruits = ["Apple", "Orange", "Pear", "Grape", "Tangerine", "Mango"]
+
+        fruits.splice(2, 0, "Lemon", "Banana", "Cherry");
+        
+        document.getElementById("demo").innerHTML = fruits.join(" * ");
+
+        </script>
+</body>

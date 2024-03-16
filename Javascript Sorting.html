@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Sample Javascript </title>
+
+    </head>
+    <body>
+        <h1>Javascript Sorting</h1>
+
+
+        <p id="demo"></p>
+
+        <p id="demo2"></p>
+       
+        <script>
+        
+        var cars = ["Volvo", "Honda", "XUV500", "Bentley", "Mercedes", "BMW"]
+
+       cars.sort();
+
+       document.getElementById("demo").innerHTML = cars.join(" , ");
+
+       var cars2 = ["Volvo", "Honda", "XUV500", "Bentley", "Mercedes", "BMW"]
+
+       cars2.reverse();
+        
+        document.getElementById("demo2").innerHTML = cars2.join(" , ");
+
+        </script>
+</body>
